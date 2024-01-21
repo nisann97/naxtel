@@ -1,0 +1,582 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    width: 100%;
+    height: 40px;
+    background-color: orange;
+}
+
+
+header #up .col-6 ul{
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    margin-left: 120px;
+
+}
+
+header #up .col-6 ul li{
+    border-right: 1px solid white;
+}
+
+header #up .col-6 ul li:last-child{
+    border-right: none;
+    margin-right: 5px;
+}
+
+
+header #up .col-6 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+
+header #up .col-6 .lang{
+    display: flex;
+    justify-content: end;
+}
+header #up .col-6 span{    
+    color: white;
+}
+
+@media only screen and (max-width: 1201px) {
+    header #down .navbar{
+      display: none;
+    }
+    
+        header #down .search{
+            display: none;
+        
+    }
+
+    main #slider{
+      width: 100%;
+      height: auto;
+    }
+
+    main #advantage .col-12 h1{
+      margin-top: 10px !important;
+    }
+
+
+   
+  
+  
+}
+
+  @media only screen and (max-width: 1201px) {
+    header #down .icon .fa-solid{
+      display: block !important;
+    }
+
+    #slider h1{
+      margin-top: -20%;
+    } 
+
+
+
+  }
+
+ 
+ 
+  @media only screen and (max-width: 765px) {
+   footer #footer-up{
+    display: none;
+   }
+
+   #advantage{
+    width: 100%;
+    height: 700px;
+  }
+
+  #advantage .col-12{
+    display: none;
+  }
+
+  #advantage .col-12:first-child{
+    display: block !important;
+  }
+
+  #applications{
+    width: 100%;
+    height: 200px;
+    background-color: #ff9100;
+  }
+
+  #applications .col-12{
+    width: 100%;
+    height: 200px;
+    background-color: #ff9100;
+  }
+
+  #applications .apps img{
+    display: none;
+  }
+  
+
+#applications .left{
+display: none; 
+ }
+
+#news p{
+  display: none;
+}
+
+#news .item .col-12:last-child{
+display: none;
+}
+ 
+  #offers .col-12{
+    display: none;
+  }
+
+  #offers .col-12:first-child{
+    display: block !important;
+  }
+
+  }
+ 
+
+
+  /* @media (max-width:1180) and (min-width:768px) {
+    footer #footer-up{
+      display: none !important;
+     }
+  
+     #advantage{
+      width: 100%;
+      height: 700px;
+    }
+  
+    #advantage .col-12{
+      display: none;
+    }
+  
+    #advantage .col-12:first-child{
+      display: block !important;
+    }
+  
+    #applications{
+      width: 100%;
+      height: 200px;
+      background-color: #ff9100;
+    }
+  
+    #applications .col-12{
+      width: 100%;
+      height: 200px;
+      background-color: #ff9100;
+    }
+  
+    #applications .apps img{
+      display: none;
+    }
+    
+  
+    #applications .left{
+  display: none; 
+   }
+  
+  #news p{
+    display: none;
+  }
+  
+  #news .item .col-12:last-child{
+  display: none;
+  }
+   
+    #offers .col-12{
+      display: none;
+    }
+  
+    #offers .col-12:first-child{
+      display: block !important;
+    }
+  
+  } */
+
+
+  @media only screen and (min-width: 1201px) {
+
+  header #down .icon .fa-solid{
+ color: grey;
+  font-size: 60;
+  margin-top: 10px;
+  display: none;
+  }
+}
+
+  
+
+
+  
+  #down{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+  }
+  #down .logo{
+    width: 100%;
+    height: 80px;
+  }
+
+  #down .logo img{
+    width: 21%;
+    margin-top: 5px;
+    margin-left: 120px 
+  }
+
+
+  #down .navbar{
+    margin-left: -90px;
+  }
+  #down .navbar ul{
+    display: flex;
+    margin-top: 15px;
+    list-style: none;
+    gap: 15px;
+
+  }
+
+  #down .navbar ul li a{
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+  }
+
+  #down .search .fa-solid{
+    color: grey;
+    font-size: 20;
+    margin-top: 25px;
+    margin-left: 40px;
+  }
+
+  main{
+    width: 100%;
+    height: auto;
+  }
+
+  #slider .col-12 {
+width: 100%;
+  }
+
+  #slider .col-12 .image{
+    width: 100%;
+  }
+
+  #slider .col-12 .image img{
+  width: 100%;
+    margin-top: 40px;
+  }
+
+
+  #advantage{
+    width: 100%;
+    height: 700px;
+  }
+  #advantage .col-12 span{
+    text-align: center;
+  }
+
+
+#advantage .col-12{
+    margin-top: 10px;
+}
+#advantage .col-12 h1{
+  text-align: center; 
+}
+
+#advantage .col-md-4 .image{
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+}
+
+#advantage .col-md-4 img{
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+} 
+
+#advantage .col-12 h1{
+
+  font-size: 38px;
+  color: grey;
+  font-weight: 50px;
+
+}
+
+
+#applications{
+  width: 100%;
+  height: 400px;
+  background-color: #ff9100;
+}
+
+#applications .col-12{
+  width: 100%;
+  height: 400px;
+}
+
+#applications .up{
+  width: 100%;
+  margin-left: 60px;
+}
+
+#applications .up img{
+  width: 10%;
+  margin-top: 30px;
+}
+
+#applications .up h1{
+  color: white;
+  margin-top: 20px;
+}
+
+#applications .up p{
+  color: white;
+  margin-top: 10px;
+  font-size: 23px;
+}
+
+#applications .apps{
+  width: 100%;
+  height: 60px;
+  gap: 10px;
+  margin-left: 60px;
+}
+
+
+
+#applications .apps{
+  width: 100%; 
+  display: flex;
+}
+
+#applications .apps  img{
+  width: 100%;
+  /* height: 67%; */
+}
+
+#applications .right{
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+
+#offers{
+  width: 100%;
+  height: 500px;
+}
+
+
+#offers .heading .col-12 h1{
+  color: grey;
+  text-align: center;
+}
+
+
+#offers .image{
+  gap: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+
+}
+
+#offers .image img{
+  width: 60%;
+}
+
+#offers .image p{
+  color: grey;
+  margin-top: 10px;
+}
+
+#offers .image .box{
+  width: 80px;
+  height: 30px;
+  border: 1px solid #ff9100;
+  border-radius: 25px;
+  transition: all 0.5s;
+  text-align:  center;
+  display: inline-block;
+  justify-content: center;
+
+
+}
+
+
+.box:hover{
+background-color: #ff9100;
+
+}
+
+
+#news{
+  width: 100%;
+  height: 440px;
+  background-color: whitesmoke
+}
+
+#news .heading{
+  width: 100%;
+  height: 120px;
+  margin-top: 10px;
+}
+
+
+#news .heading .col-12{
+  justify-content: center;
+  text-align: center;
+  
+}
+
+#news .heading .col-12 h1{
+  color: grey;
+}
+
+#news .item{
+width: 100%;
+margin-top: 40px;
+gap: 15px;
+}
+
+#news .item span{
+  font-size: 12px;
+  color: grey;
+}
+
+#news .item h5{
+  color: rgb(93, 93, 93);
+  margin-top: 5px;
+}
+
+#news .item p{
+  font-size: 14px;
+  color: grey;
+  margin-top: 5px;
+}
+
+#news .item .more{
+  width: 80px;
+  height: 30px;
+  border: 1px solid #ff9100;
+  border-radius: 25px;
+  transition: all 0.5s;
+  text-align:  center;
+  display: inline-block;
+  justify-content: center;
+
+
+}
+
+
+.more:hover{
+background-color: #ff9100;
+
+}
+
+
+#news .slider{
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#news .slider .fa-solid{
+ color: #ff9100;
+}
+
+#news .slider .fa-regular{
+  color: #ff9100;
+  transition: all 0.5s;
+}
+
+#news .fa-regular:hover{
+  background-color: #ff9100;
+}
+
+footer{
+  width: 100%;
+  height: 330px;
+}
+
+#footer-up{
+  width: 100%;
+  height: 220px;
+  background-color: #3c98a7;
+}
+
+#footer-up .categories{
+width: 100%;
+}
+
+
+
+  #footer-up .categories .col-3{
+    margin-top: 60px;
+  }
+
+
+  #footer-up .categories .col-3 h5{
+    color: white;
+    text-align: center;
+
+  }
+
+
+  #footer-up .categories .col-3 ul{
+    list-style: none;
+    margin-left: 67px;
+    margin-top: 17px;
+   
+  }
+
+    
+
+
+  #footer-up .categories .col-3 ul li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  }
+
+#footer-down{
+    width: 100%;
+    height: 110px;
+    background-color: #2d727e;
+  }
+
+  #footer-down .owner{
+    width: 100%;
+    height: 30px;
+  }
+
+  #footer-down .owner p{
+    color: white;
+    margin-top: 20px;
+    margin-left: 80px;
+  }
+
+  #footer-down .social-media .col-12{
+    gap: 5px;
+
+  }
+
+  #footer-down .social-media img:first-child{
+    margin-left: 80px;
+
+  }
+
+
+  #footer-down .social-media img{
+    width: 3%;
+    margin-top: 20px;
+  }
